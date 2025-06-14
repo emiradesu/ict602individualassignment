@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Light Theme -->
+    <style name="Theme_Light" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#ffcc5b</item><!-- yellow -->
+        <item name="colorPrimaryDark">#ffcc5b</item><!-- yellow -->
+        <item name="colorAccent">#ffcc5b</item><!-- yellow -->
+        <item name="android:textColorPrimary">#000000</item><!-- black -->
+        <item name="android:background">#ffffff</item><!-- white -->
+        <item name="buttonStyle">@style/BtnLight</item>
+    </style>
+
+    <style name="BtnLight" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#ffcc5b</item><!-- yellow -->
+        <item name="android:textColor">#000000</item><!-- black -->
+    </style>
+
+    <style name="Theme.ElectricityBillCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#ffcc5b</item><!-- yellow -->
+        <item name="colorPrimaryDark">#ffcc5b</item><!-- yellow -->
+        <item name="colorAccent">#ffcc5b</item><!-- yellow -->
+        <item name="android:statusBarColor">#ffcc5b</item><!-- yellow -->
+    </style>
+
+    <style name="CustomActionBarTitle">
+        <item name="android:textColor">#000000</item><!-- black -->
+        <item name="android:textStyle">bold</item><!-- bold -->
+        <item name="android:textSize">20sp</item><!-- size -->
+    </style>
+
+</resources>
