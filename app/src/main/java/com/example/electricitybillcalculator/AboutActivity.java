@@ -32,12 +32,12 @@ public class AboutActivity extends AppCompatActivity {
             String info = "Name: Faizmin Emira binti Mohd Faizul\n" +
                     "Student ID: 2023197491 \n" +
                     "Course: ICT602-Mobile Technology and Development \n" +
-                    "Presented for: Dr Ahmad Iqbal Hakim bin Suhaimi \n" +
+                    "Presented for: Dr. Ahmad Iqbal Hakim bin Suhaimi \n" +
                     "© 2025 Faizmin Emira. All Rights Reserved";
 
             txtInfo.setText(info);
 
-            txtUrl.setText("GitHub: https://github.com/yourusername/electricity-bill-app");
+            txtUrl.setText("GitHub: https://github.com/emiradesu/ict602individualassignment.git");
             txtUrl.setMovementMethod(LinkMovementMethod.getInstance());
 
         }
